@@ -58,11 +58,13 @@ SHAP values help reveal the influence of each feature on individual predictions:
 
 ## 📊 Model Performance  
 
-| Metric | RF (Test Set) |
-|--------|---------------|
-| R²     | 0.80+         |
-| MAE    | ~0.48         |
-| RMSE   | ~0.61         |
+| Metric | RF (Test Set) | NN (Test Set) | GBM (Test Set) | XGBoost (Test Set) |
+|--------|---------------|---------------|----------------|--------------------|
+| R²     | 0.849         | 0.797         | 0.816          | 0.814              |
+| MAE    | 0.393         | 0.458         | 0.434          | 0.434              |
+| MSE    | 0.260         | 0.321         | 0.317          | 0.319              |
+| RMSE   | 0.510         | 0.566         | 0.563          | 0.565              |
+
 
 ✅ **5-Fold Cross Validation** confirms model stability  
 ✅ **Kaggle test set R²: 0.98**, validating scalability  
