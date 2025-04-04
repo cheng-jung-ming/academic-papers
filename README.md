@@ -36,9 +36,9 @@ The following SHAP plot shows the top factors influencing client demand:
 - **Product-material interactions** played a crucial role.  
 - **Client-product relationships** showed significant variation in demand patterns.  
 
-### **SHAP Decision Impact**  
-SHAP values help reveal the influence of each feature on individual predictions:  
-
+### **SHAP Feature Dependence**  
+The SHAP feature dependence plot visualizes how the values of each feature influence the model’s prediction. It reveals the trends and relationships between feature values and their corresponding SHAP values, highlighting the strength and direction of each feature's impact on the model's predictions.
+  
 ![SHAP Force Plot](images/SHAP解釋各特徵貢獻度.png)  
 
 📊 **Findings:**  
