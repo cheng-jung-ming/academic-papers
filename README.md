@@ -30,7 +30,7 @@ To enhance model interpretability, we used **SHAP** to identify the most critica
 ### **SHAP Summary Plot**  
 The following SHAP plot shows the top factors influencing client demand:  
 
-![SHAP Summary Plot](images/shap_summary.png)  
+![SHAP Summary Plot](images/SHAP圖示.png)  
 
 - **Product-related features** had the strongest impact.  
 - **Product-material interactions** played a crucial role.  
@@ -39,7 +39,7 @@ The following SHAP plot shows the top factors influencing client demand:
 ### **SHAP Decision Impact**  
 SHAP values help reveal the influence of each feature on individual predictions:  
 
-![SHAP Force Plot](images/shap_force.png)  
+![SHAP Force Plot](images/SHAP解釋各特徵貢獻度.png)  
 
 📊 **Findings:**  
 - Some products exhibit **high SHAP values**, indicating strong demand predictability.  
